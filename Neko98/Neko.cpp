@@ -549,7 +549,7 @@ void CNeko::Update()
 			{
 				//mouse cursor is too close
 				int x, y;
-				double dLength = sqrt(xdiff*xdiff + ydiff*ydiff);
+				double dLength = sqrt((double)xdiff*xdiff + ydiff*ydiff);
 				if( dLength != 0.0 )
 				{
 					x = m_pPet->GetPosition().x + (int)((xdiff / dLength) * dwLimit);

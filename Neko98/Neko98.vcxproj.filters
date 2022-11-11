@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{fbd4ed39-75fc-48f1-8250-b4fe25fde2b8}</UniqueIdentifier>
+      <Extensions>.ico;.bmp;.rc</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\Awake.ico">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Res\Down1.ico">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Res\down2.ico">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Res\downclaw1.ico">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Res\downclaw2.ico">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Res\downleft1.ico">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Res\Downleft2.ico">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Res\Downright1.ico">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Res\downright2.ico">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Res\fp_down.ico">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Res\fp_downleft.ico">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Res\fp_downright.ico">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Res\fp_left.ico">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Res\fp_right.ico">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Res\fp_up.ico">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Res\fp_upleft.ico">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Res\fp_upright.ico">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Res\left1.ico">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Res\left2.ico">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Res\leftclaw1.ico">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Res\leftclaw2.ico">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Res\Right1.ico">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Res\right2.ico">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Res\rightclaw1.ico">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Res\Rightclaw2.ico">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Res\scratch1.ico">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Res\scratch2.ico">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Res\sleep1.ico">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Res\sleep2.ico">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Res\Up1.ico">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Res\Up2.ico">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Res\upclaw1.ico">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Res\upclaw2.ico">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Res\Upleft1.ico">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Res\Upleft2.ico">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Res\Upright1.ico">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Res\Upright2.ico">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Res\wash2.ico">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Res\yawn2.ico">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Res\yawn3.ico">
+      <Filter>Resources</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Neko95.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AlwaysOnTopPet.cpp" />
+    <ClCompile Include="DesktopHack.cpp" />
+    <ClCompile Include="DesktopPet.cpp" />
+    <ClCompile Include="Neko.cpp" />
+    <ClCompile Include="Neko98.cpp" />
+    <ClCompile Include="NekoSettings.cpp" />
+    <ClCompile Include="Pet.cpp" />
+    <ClCompile Include="Tray.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AlwaysOnTopPet.h" />
+    <ClInclude Include="DesktopHack.h" />
+    <ClInclude Include="DesktopPet.h" />
+    <ClInclude Include="Neko.h" />
+    <ClInclude Include="NekoCommon.h" />
+    <ClInclude Include="NekoSettings.h" />
+    <ClInclude Include="Pet.h" />
+    <ClInclude Include="Tray.h" />
+  </ItemGroup>
+</Project>

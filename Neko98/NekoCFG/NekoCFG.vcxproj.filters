@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{d8b57da7-21aa-41f3-894e-a61aaef95fd6}</UniqueIdentifier>
+      <Extensions>.ico;.bmp;.rc;.cur</Extensions>
+    </Filter>
+    <Filter Include="Help">
+      <UniqueIdentifier>{54122c0e-e3a6-46de-b048-b404c28aa7a2}</UniqueIdentifier>
+      <Extensions>.hpj;.rtf</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\AppIcon.ico">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="..\Res\Awake.ico">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="Res\displayi.ico">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="Res\independence.ico">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="Res\movement.ico">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="Res\play.bmp">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="Res\playing.cur">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="Res\sounds.ico">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="Res\tab_effects.ico">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="..\NekoHelp\Neko98.HPJ">
+      <Filter>Help</Filter>
+    </None>
+    <None Include="..\NekoHelp\Neko98.RTF">
+      <Filter>Help</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="NekoCFG.cpp" />
+    <ClCompile Include="NekoCFG_Tabs.cpp" />
+    <ClCompile Include="..\NekoSettings.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="NekoCFG.h" />
+    <ClInclude Include="NekoCFG_resource.h" />
+    <ClInclude Include="..\NekoCommon.h" />
+    <ClInclude Include="..\NekoSettings.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="NekoCFG.rc" />
+  </ItemGroup>
+</Project>
